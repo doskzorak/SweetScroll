@@ -1,0 +1,89 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #642580;
+}
+
+.top-img, .kitchen-equipment, .ingredients, .utensils, .oven, .parallax {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+
+  background-attachment: fixed;
+}
+
+.top-img {
+  background-image: url("rosecake.jpg");
+  min-height: 100%;
+  background-size: auto;
+}
+
+h3 {
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: yellow;
+  text-align:center;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.textSection {
+  background-color:#642580;
+  padding: 0px 80px;
+}
+
+.kitchen-equipment {
+  background-image: url("utensils.JPG");
+}
+
+.ingredients {
+  background-image: url("ingredients.jpg");
+}
+
+.utensils {
+  background-image: url("utensils.JPG");
+}
+
+div {
+  text-align: center-jusfity;
+}
+
+.oven {
+  background-image: url("oven.jpg");
+}
+
+.parallax {
+  background-image: url("img_parallax.jpg");
+}
+
+ol, p {
+  color: yellow;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.caption {
+  poistion: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: #41BAC1;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
+        background-attachment: scroll;
+    }
+}
